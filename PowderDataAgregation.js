@@ -362,7 +362,7 @@ function sendToAutomated() {
   var sourceSheet = sourceSpreadsheet.getSheetByName("ListOfPowder");
   var sourceRange = sourceSheet.getRange("A1:C100");
   var data = sourceRange.getValues();
-  var targetID = "1FQ6-wd8qEaPIpCegF1-kCNCQ9Z9HlgSxeEewvkVQtvE";
+  var targetID = "**";
   var targetSpreadsheet = SpreadsheetApp.openById(targetID);
   var targetSheet = targetSpreadsheet.getSheetByName("PowderList");
   var targetRange = targetSheet.getRange("A1:C100");
